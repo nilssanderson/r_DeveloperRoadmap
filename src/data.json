@@ -1,0 +1,144 @@
+{
+  "items": {
+    "basics": {
+      "id": 1,
+      "route": "basics",
+      "name": "Learn the Basics",
+      "linkable": false,
+      "children": ["git", "github"],
+      "sections": {
+        "1": {
+          "type": "link",
+          "linkText": "You should’ve learned Git yesterday",
+          "href": "https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa"
+        },
+        "2": {
+          "type": "link",
+          "linkText": "15 minutes to learn Git",
+          "href": "https://try.github.io/levels/1/challenges/1"
+        }
+      }
+    },
+    "git": {
+      "id": 1,
+      "route": "git",
+      "name": "Git",
+      "linkable": true,
+      "navHidden": true,
+      "sections": {
+        "1": {
+          "type": "link",
+          "linkText": "You should’ve learned Git yesterday",
+          "href": "https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa"
+        },
+        "2": {
+          "type": "link",
+          "linkText": "15 minutes to learn Git",
+          "href": "https://try.github.io/levels/1/challenges/1"
+        }
+      }
+    },
+    "github": {
+      "id": 8,
+      "route": "github",
+      "name": "GitHub",
+      "linkable": true,
+      "sections": {
+        "1": {
+          "type": "link",
+          "linkText": "A Step by Step Guide to Making Your First GitHub Contribution",
+          "href": "https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940"
+        }
+      }
+    },
+    "javascript": {
+      "id": 2,
+      "route": "javascript",
+      "name": "Javascript",
+      "linkable": true,
+      "children": ["beginner_javascript"],
+      "sections": {
+        "1": {
+          "type": "text",
+          "content": "javascript is awesomeThe nature of the language This section gives a little background on the nature of JavaScript, to help you understand why it is the way it is.JavaScript versus ECMAScript The programming language is called JavaScript, the language standard is called ECMAScript.They have different names, because there is a trademark on “Java” (held by Oracle).At the moment, only Mozilla is allowed to officially use the name “JavaScript”, because they received a license long ago. Therefore, an open language standard had to have a different name.The current version of JavaScript is ECMAScript 5, ECMAScript 6 is currently being developed."
+        },
+        "2": {
+          "type": "text",
+          "content": "javascript is awesomeThe nature of the language This section gives a little background on the nature of JavaScript, to help you understand why it is the way it is.JavaScript versus ECMAScript The programming language is called JavaScript, the language standard is called ECMAScript.They have different names, because there is a trademark on “Java” (held by Oracle).At the moment, only Mozilla is allowed to officially use the name “JavaScript”, because they received a license long ago. Therefore, an open language standard had to have a different name.The current version of JavaScript is ECMAScript 5, ECMAScript 6 is currently being developed."
+        },
+        "3": {
+          "type": "text",
+          "content": "javascript is awesomeThe nature of the language This section gives a little background on the nature of JavaScript, to help you understand why it is the way it is.JavaScript versus ECMAScript The programming language is called JavaScript, the language standard is called ECMAScript.They have different names, because there is a trademark on “Java” (held by Oracle).At the moment, only Mozilla is allowed to officially use the name “JavaScript”, because they received a license long ago. Therefore, an open language standard had to have a different name.The current version of JavaScript is ECMAScript 5, ECMAScript 6 is currently being developed."
+        }
+      }
+    },
+    "beginner_javascript": {
+      "id": 8,
+      "route": "beginner_javascript",
+      "name": "Beginner Javascript",
+      "linkable": true,
+      "sections": {
+        "1": {
+          "type": "link",
+          "linkText": "A Step by Step Guide to Making Your First GitHub Contribution",
+          "href": "https://codeburst.io/a-step-by-step-guide-to-making-your-first-github-contribution-5302260a2940"
+        }
+      }
+    },
+    "html": {
+      "id": 3,
+      "route": "html",
+      "name": "HTML",
+      "linkable": true,
+      "details": "HTML is awesomeThe nature of the language This section gives a little background on the nature of JavaScript, to help you understand why it is the way it is.JavaScript versus ECMAScript The programming language is called JavaScript, the language standard is called ECMAScript.They have different names, because there is a trademark on “Java” (held by Oracle).At the moment, only Mozilla is allowed to officially use the name “JavaScript”, because they received a license long ago. Therefore, an open language standard had to have a different name.The current version of JavaScript is ECMAScript 5, ECMAScript 6 is currently being developed.",
+      "poster": "https://images.unsplash.com/photo-1466853817435-05b43fe45b39?ixlib=rb-0.3.5&s=ca3ba68074959acc210b87047f4f40c7&auto=format&fit=crop&w=1589&q=80",
+      "sections": {
+        "1": {
+          "type": "text",
+          "content": "HTML is awesomeThe nature of the language This section gives a little background on the nature of JavaScript, to help you understand why it is the way it is.JavaScript versus ECMAScript The programming language is called JavaScript, the language standard is called ECMAScript.They have different names, because there is a trademark on “Java” (held by Oracle).At the moment, only Mozilla is allowed to officially use the name “JavaScript”, because they received a license long ago. Therefore, an open language standard had to have a different name.The current version of JavaScript is ECMAScript 5, ECMAScript 6 is currently being developed."
+        },
+        "2": {
+          "type": "tip",
+          "content": "It is really sunny outside, go play!"
+        },
+        "3": {
+          "type": "text",
+          "content": "HTML is awesomeThe nature of the language This section gives a little background on the nature of JavaScript, to help you understand why it is the way it is.JavaScript versus ECMAScript The programming language is called JavaScript, the language standard is called ECMAScript.They have different names, because there is a trademark on “Java” (held by Oracle).At the moment, only Mozilla is allowed to officially use the name “JavaScript”, because they received a license long ago. Therefore, an open language standard had to have a different name.The current version of JavaScript is ECMAScript 5, ECMAScript 6 is currently being developed."
+        },
+        "4": {
+          "type": "image",
+          "alt": "Image Alt",
+          "src": "https://media.giphy.com/media/cfUMNY4RfGhEc/giphy.gif"
+        },
+        "5": {
+          "type": "video",
+          "alt": "Video Alt",
+          "src": "http://media.w3.org/2010/05/sintel/trailer",
+          "poster": "http://media.w3.org/2010/05/sintel/poster.png"
+        },
+        "6": {
+          "type": "youtube",
+          "alt": "Youtube Alt",
+          "src": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+        },
+        "7": {
+          "type": "quote",
+          "content": "It is really sunny outside, go play!"
+        }
+      }
+    },
+    "css": {
+      "id": 4,
+      "route": "css",
+      "name": "CSS",
+      "linkable": true,
+      "details": "CSS is awesomeThe nature of the language This section gives a little background on the nature of JavaScript, to help you understand why it is the way it is.JavaScript versus ECMAScript The programming language is called JavaScript, the language standard is called ECMAScript.They have different names, because there is a trademark on “Java” (held by Oracle).At the moment, only Mozilla is allowed to officially use the name “JavaScript”, because they received a license long ago. Therefore, an open language standard had to have a different name.The current version of JavaScript is ECMAScript 5, ECMAScript 6 is currently being developed.",
+      "sections": {
+        "1": {
+          "type": "text",
+          "content": "CSS is awesomeThe nature of the language This section gives a little background on the nature of JavaScript, to help you understand why it is the way it is.JavaScript versus ECMAScript The programming language is called JavaScript, the language standard is called ECMAScript.They have different names, because there is a trademark on “Java” (held by Oracle).At the moment, only Mozilla is allowed to officially use the name “JavaScript”, because they received a license long ago. Therefore, an open language standard had to have a different name.The current version of JavaScript is ECMAScript 5, ECMAScript 6 is currently being developed."
+        }
+      }
+    }
+  }
+}
